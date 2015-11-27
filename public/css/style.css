@@ -25,12 +25,12 @@ a, a:visited{
 
 .logo{
 	width: 360px;
-	margin-top: 1em;
+	padding: 2em;
 	height: auto !important;
 }
 
 section{
-	padding: 2em 0 2em 0;
+	padding: 2em;
 }
 
 footer{

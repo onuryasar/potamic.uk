@@ -1,0 +1,41 @@
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #666;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+main{
+	flex: 1;
+}
+
+header, main, footer{
+	max-width: 800px;
+}
+
+a, a:visited{
+	color: #66ccff;
+	font-weight: bold;
+}
+
+.logo{
+	width: 360px;
+	margin-top: 1em;
+	height: auto !important;
+}
+
+section{
+	padding: 2em 0 2em 0;
+}
+
+footer{
+	font-size: 0.75em;
+	padding: 1em 2em 2em 2em;
+	border-top: 1px solid #C0C0C0;
+}
+

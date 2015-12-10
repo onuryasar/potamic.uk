@@ -4,13 +4,13 @@ $(document).ready(function(){
 	
 	// Nav Sticky
 	
-	$(window).scroll(function(){
-		if($(window).scrollTop() > 500 && !$('.mobile-toggle').is(":visible")){
-			$('.top-bar').addClass('nav-sticky');
-		}else{
-			$('.top-bar').removeClass('nav-sticky');
-		}
-	});
+	// $(window).scroll(function(){
+	// 	if($(window).scrollTop() > 5 && !$('.mobile-toggle').is(":visible")){
+	// 		$('.top-bar').addClass('nav-sticky');
+	// 	}else{
+	// 		$('.top-bar').removeClass('nav-sticky');
+	// 	}
+	// });
 	
 	// Offscreen Nav
 	
@@ -87,12 +87,12 @@ $(document).ready(function(){
 	// Margin first section for top bar
 	
 	if(!$('nav').hasClass('overlay-bar') && !$('nav').hasClass('contained-bar')){
-		$('.main-container').first().css('margin-top', $('nav').outerHeight() - 20);
+		$('.main-container').first().css('margin-top', $('nav').outerHeight());
 	}
 	
 	$(window).resize(function(){
 		if(!$('nav').hasClass('overlay-bar') && !$('nav').hasClass('contained-bar')){
-			$('.main-container').first().css('margin-top', $('nav').outerHeight() - 20);
+			$('.main-container').first().css('margin-top', $('nav').outerHeight());
 		}
 	});
 	

@@ -55,9 +55,10 @@ if(isset($_POST['email'])) {
 		echo($mailer->send($message));
 	}
 	catch(Exception $e){
-		echo($e->getMessage());
+		// echo($e->getMessage());
+		echo('Message could not be sent because of a technical error.');
 	}
 	exit;
 }
- 
+
 ?>

@@ -3059,7 +3059,7 @@ footer.short-2 .contact-action:hover {
     margin-bottom: 32px;
   }
   footer.short-2 {
-    padding-bottom: 0px;
+    /*padding-bottom: 0px;*/
   }
   footer.short-2 span {
     margin-right: 16px;
